@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+main(){
+	//the multiplication table
+	for(int i=1;i<=9;i++){
+		for(int j=1;j<=9;j++){
+			cout<<i<<" x "<<j<<" = "<<i*j<<endl;
+		}
+	}
+	system("pause");
+	return 0;
+}
